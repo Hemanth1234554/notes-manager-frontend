@@ -1,0 +1,33 @@
+.footer {
+  margin-top: 60px;
+  padding: 25px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  color: #444;
+  font-size: 0.95rem;
+  position: relative;
+  z-index: 2;
+}
+
+.footer .highlight {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #0056b3;
+}
